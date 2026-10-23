@@ -10,6 +10,10 @@ up as you play. It is read-only: it never changes anything in the game and never
 · [Linux](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/Fastidious-Client_linux-x86_64)
 · [all releases and what's new](../../releases)
 
+![My Guild's Guild War tab: every building, each slot's defender, their teams and the HP left](images/guild-war.png)
+
+<sub>All pictures show the app's sample account, made up for previews.</sub>
+
 ---
 
 ## What it does
@@ -21,6 +25,10 @@ up as you play. It is read-only: it never changes anything in the game and never
   roll**, …), substat filters that sort by the best rolls, and each piece's card on hover.
 - **Artifacts, Demons, Pantheon, Resources** and a **History** of your account over time, kept on your PC.
 
+| Heroes | Gear |
+|---|---|
+| ![Heroes: every hero with its level, stars and awakening, filters by rarity, class and lords](images/heroes.png) | ![Gear: the bag with quality tags, roll filters and each piece's main stat](images/gear.png) |
+
 **Building teams**
 - **Affiliation**: finds the best builds for a team from the gear you own, and which upgrades (recasting,
   transmutation, variant gems) would lift it most.
@@ -28,20 +36,32 @@ up as you play. It is read-only: it never changes anything in the game and never
   (including a **Damage** preset that follows the game's own damage rules) and locks you control. The app shows
   each build and where every piece comes from; you equip it in the game yourself.
 
+![Battle Equips Optimizer: the battle's teams, each hero's preset and the gain of its build](images/battle.png)
+
 **Fights**
 - **Fight Stats**: live during a fight, each hero's damage, DPS, healing and damage taken over battle time, the
   formation on its board, and ultimates as they land. Every fight is kept, so you can compare runs of the same stage
   side by side, even while a new one is running.
+
+![Fight Stats: each hero's damage over battle time on a two-map fight, with ultimates under the chart](images/fight.png)
 
 **Summons and chests**
 - **Summons**: your pity for every summon type, the chance on the next pull and within the next ten, banner
   guarantees, and a summon record kept beyond the game's own list.
 - **Chests**: a log of guild boss chest claims, with drop rates and totals over every claim.
 
+![Summons: pity, the limited hero's guarantee and the summoning record with luck per group](images/summons.png)
+
 **My Guild**
 - **Demons** and **BP Affiliation**: what guildmates who use Fastidious share, side by side.
 - **Guild War**: your guild's buildings, each slot's defender and the HP each team has left, with formations on the
   map. Members who share their garrison see the guild's lineups without opening each building.
+
+| Demons | BP Affiliation |
+|---|---|
+| ![My Guild Demons: members by demon levels](images/guild-demons.png) | ![My Guild BP Affiliation: each member's top five ef. BP, ranked](images/guild-bp.png) |
+
+![A guildmate's team formation on the Guild War map, the enemies' lane from spawn to gate](images/guild-war-formation.png)
 
 ## Your data
 

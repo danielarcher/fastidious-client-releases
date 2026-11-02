@@ -1,13 +1,13 @@
-# Fastidious Client
+# FastiCompanion
 
-**The desktop companion for Watcher of Realms, from [fastidious.gg](https://fastidious.gg).**
+**The desktop companion for Watcher of Realms, by Archer, from [fastidious.gg](https://fastidious.gg).**
 
 Your whole account on your own PC, live while you play: every hero, piece of gear and artifact, your demons, your
 summon pity, your fights and your guild. The app reads it from the running game and shows it in one window that keeps
 up as you play. It is read-only: it never changes anything in the game and never reads your screen.
 
-**Download:** [Windows installer](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/Fastidious-Client_x64-setup.exe)
-· [Linux](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/Fastidious-Client_linux-x86_64)
+**Download:** [Windows installer](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/FastiCompanion_x64-setup.exe)
+· [Linux](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/FastiCompanion_linux-x86_64)
 · [all releases and what's new](../../releases)
 
 ![My Guild's Guild War tab: every building, each slot's defender, their teams and the HP left](images/guild-war.png)
@@ -43,7 +43,7 @@ up as you play. It is read-only: it never changes anything in the game and never
   formation on its board, and ultimates as they land. Every fight is kept, so you can compare runs of the same stage
   side by side, even while a new one is running.
 
-![Fight Stats: each hero's damage over battle time on a two-map fight, with ultimates under the chart](images/fight.png)
+![Fight Stats: each hero's damage over battle time on a guild boss fight, with ultimates under the chart](images/fight.png)
 
 **Summons and chests**
 - **Summons**: your pity for every summon type, the chance on the next pull and within the next ten, banner
@@ -68,29 +68,32 @@ up as you play. It is read-only: it never changes anything in the game and never
 - **Nothing leaves your PC** unless you link the app with your fastidious.gg account (Sync, optional).
 - Linked, a sync fills **My Heroes, My Demons and My Realm** on fastidious.gg: your roster, demon levels, summon pity,
   chest claims, guild and server. Gear, artifacts and resources stay on your computer.
-- **Guild sharing** is off until you turn it on, part by part (demons, BP, Guild War garrison). You only see a part of
+- **Guild sharing** is off until you turn it on, part by part (demons, BP numbers). You only see a part of
   your guild while you share it too, and turning it off removes yours at once.
 
 ## Install
 
 **Windows 10 or 11 (64-bit)**
-1. Download the [installer](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/Fastidious-Client_x64-setup.exe) and run it.
+1. Download the [installer](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/FastiCompanion_x64-setup.exe) and run it.
 2. The installer isn't code-signed during the beta, so Windows SmartScreen may warn: click **More info**, then
    **Run anyway**.
 3. The app asks to run as administrator: the game runs elevated, and the app needs the same rights to read it.
 
 **Linux (x86-64)**: the app reads the game running under Proton.
-1. Download the [binary](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/Fastidious-Client_linux-x86_64),
-   make it executable (`chmod +x Fastidious-Client_linux-x86_64`) and run it.
+1. Download the [binary](https://github.com/danielarcher/fastidious-client-releases/releases/latest/download/FastiCompanion_linux-x86_64),
+   make it executable (`chmod +x FastiCompanion_linux-x86_64`) and run it.
 2. It needs WebKitGTK 4.1 (`webkit2gtk-4.1`), which most desktops already have.
 
 ## Updates
 
-The app updates itself from this page: it checks when it starts and every few hours, and installs a new version when
+The app updates itself from this page: it checks when it starts and every 30 minutes, and installs a new version when
 it won't interrupt a fight or a summon. **Config** shows the version, what's new and an **Update now** button, and
 lets you turn automatic installs off.
 
 Every file is signed with the app's update key, and the app refuses any update whose signature doesn't match.
+Up to 0.18.3 the app was called **Fastidious Client**. Updating replaces that install with FastiCompanion: one app
+left, with your history, sync link and settings kept. A taskbar pin needs pinning again.
+
 `SHA256SUMS.txt` in each release lists the files' hashes if you want to check a download by hand
 (`sha256sum -c SHA256SUMS.txt`).
 
